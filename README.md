@@ -32,6 +32,8 @@ whole validation process. If the `Lead` is considered valid, then it is
 registered as a `Prospect` and persisted. Also, the `Lead` will be updated 
 to have the `converted` attribute True.
 
+![Diagram](/docs/saga.png)
+
 ## Mock Implementation
 
 In order to test the architecture and services, along with unit tests, a mock 
